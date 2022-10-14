@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<htmL>
+	<head>
+		<title>LOGIN PAGE</title>
+		<meta name="viewpoint" content="width=device-width,intial-scale=1.0">	
+		<link rel="stylesheet" type="text/css" href="../Shopping site\Design.css">
+		<script type="text/javascript" src="../Shopping site\Script.js"></script>
+	</head>
+	<body>
+	
+	<div id="title"><h1>XYZ World Wide Shopping</h1></div>
+		<hr size="5" >
+	
+	
+	<div id="top">
+		<table cellpadding="4" cellspacing="4" align="center" >
+			<tr>
+			<td><a href="../Shopping site\Login.html"><b>LOGIN</b></a></td>
+			<td><a href="../Shopping site\Billing.html"><b>BILLING</b></a></td>
+			<td><a href="../Shopping site\About Us.html"><b>ABOUT US</b></a></td>
+			</tr>
+
+		</table></div>
+<br><br><hr><br>
+				
+			<form id="frm" action="../Shopping site\XYZ_index.html" onsubmit="return validation(this)"  align="center"><table  cellspacing="3" cellpadding="3" align="center" height="200" width="400" bgcolor="rgba(50,80,90,0.8)" >
+				<!--action="../Shopping site\XYZ_index.html"-->		
+	<td>
+				
+				<h2> <center> USER LOGIN  </center> </h2>
+					<tr><td>
+						<table>
+						
+						<tr>
+						<td><label> User Name </label></td> <td><input type="text" name="Uname" size="20" placeholder="Username"></td></tr>
+						<tr>
+						<td><label> Password </label></td> <td><input type="password" name="Pwd" id="pw" placeholder="Abcd#1234"></td></tr>			
+						<tr>
+						<td><input type="submit" value="Login" id="hi"><input type="reset"></td></tr>
+					</td></tr>
+						</table>
+				
+			</table></form>
+			
+			<br><br>
+			<table align="center" border=3>
+			 <tr><td id="up"><strong><center>Minimum one Uppercase</center></strong></td></tr>
+			 <tr id="lw"><td ><strong><center>Minimum one Lowercase</center></strong></td></tr>
+			 <tr><td id="no"><strong><center>Minimum one Special character between(!,@,#,$,%,^,&,*)</center></strong></td></tr>
+			 <tr><td id="sp"><strong><center>Minimum one Number</center></strong></td></tr>
+			</table>
+	</body>
+</htmL>

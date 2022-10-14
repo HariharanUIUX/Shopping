@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>XYZ Shoping</title>
+		<meta name="viewpoint" content="width=device-width,intial-scale=1.0">	
+		<link rel="stylesheet" type="text/css" href="../Shopping site\Design.css">
+		<script type="text/javascript" src="../Shopping site\Script.js"></script>
+	</head>
+	<body>
+
+		<div id="title"><h1>XYZ World Wide Shopping</h1></div>
+		<hr size="5" >
+
+		<div id="top">
+		<table  cellpadding="4" cellspacing="4" align="center" >
+			<tr>
+			<td><a href="../Shopping site\XYZ_index.html"><b>PRODUCTS</b></a></td>
+			<td><a href="../Shopping site\Login.html"><b>LOGIN</b></a></td>
+			<td><a href="../Shopping site\Billing.html"><b>BILLING</b></a></td>
+			<td><a href="../Shopping site\About Us.html"><b>ABOUT US</b></a></td>
+			</tr>
+
+		</table></div>		
+<br><br><hr><br>
+		<div class="im"><form id="items" action="../Shopping site\Billing.html" onsubmit="return purchase(this)"  ><table cellpadding="10" cellspacing="2" align="center">
+		
+		<tr>
+			<td id="td1"><a href=""><center><img src="../Shopping Site\Photoshop\1.png" width="200"></center></img></a>
+			<label><center>Bulb</center></lable><br>
+			<label><center>Cost: 20 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n1" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk1" onclick="shop1(this)"  >
+			
+			</td>
+			
+			<td id="td2"><a href=""><center><img src="../Shopping Site\Photoshop\2.png" width="200"></center></img></a>
+			<label><center>Aeroplance Toy</center></lable><br>
+			<label><center>Cost: 250 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n2" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk2" onclick="shop2(this)">
+			</td>
+			
+			<td id="td3"><a href=""><center><img src="../Shopping Site\Photoshop\3.png" width="200"></center></img></a>
+			<label><center>Traditional Clock</center></lable><br>
+			<label><center>Cost: 500 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n3" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk3" onclick="shop3(this)">
+			</td>
+			
+			<td id="td4"><a href=""><center><img src="../Shopping Site\Photoshop\4.png" width="200"></center></img></a>
+			<label><center>Hammer</center></lable><br>
+			<label><center>Cost: 300 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n4" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk4" onclick="shop4(this)">
+			</td>
+		</tr>
+		<tr>
+			<td id="td5"><a href=""><center><img src="../Shopping Site\Photoshop\5.png" width="200"></center></img></a>
+			<label><center>Rose</center></lable><br>
+			<label><center>Cost: 50 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n5" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk5" onclick="shop5(this)">
+			
+			</td>
+			
+			<td id="td6"><a href=""><center><img src="../Shopping Site\Photoshop\6.png" width="200"></center></img></a>
+			<label><center>Microscope</center></lable><br>
+			<label><center>Cost: 10,000 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n6" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk6" onclick="shop6(this)">
+			</td>
+			
+			<td id="td7"><a href=""><center><img src="../Shopping Site\Photoshop\7.png" width="200"></center></img></a>
+			<label><center>Race Car Toy</center></lable><br>
+			<label><center>Cost: 300 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n7" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk7" onclick="shop7(this)">
+			</td>
+			
+			<td id="td8"><a href=""><center><img src="../Shopping Site\Photoshop\8.png" width="200"></center></img></a>
+			<label><center>Foot Ball</center></lable><br>
+			<label><center>Cost: 1000 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n8" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk8" onclick="shop8(this)">
+			</td>
+		</tr>
+		<tr>
+			<td id="td9"><a href=""><center><img src="../Shopping Site\Photoshop\9.png" width="200"></center></img></a>
+			<label><center>Personal Computer</center></lable><br>
+			<label><center>Cost: 20,000 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n9" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk9" onclick="shop9(this)">
+			
+			</td>
+			
+			<td id="td10"><a href=""><center><img src="../Shopping Site\Photoshop\10.png" width="200"></center></img></a>
+			<label><center>CD Drive</center></lable><br>
+			<label><center>Cost: 2,500 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n10" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk10" onclick="shop10(this)">
+			</td>
+			
+			<td id="td11"><a href=""><center><img src="../Shopping Site\Photoshop\11.png" width="200"></center></img></a>
+			<label><center>Telephone</center></lable><br>
+			<label><center>Cost: 1,500 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n11" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk11" onclick="shop11(this)">
+			</td>
+			
+			<td id="td12"><a href=""><center><img src="../Shopping Site\Photoshop\12.png" width="200"></center></img></a>
+			<label><center>Digital Camera</center></lable><br>
+			<label><center>Cost: 8,000 Rs</center></lable><br>
+			<label>Choose Quantity : </label><input type="number" name="number" id="n12" value="0" placeholder="Quantity"></input><br>
+			<label> Add Cart :</label><input type="checkbox" name="checkbox" id="chk12" onclick="shop12(this)">
+			</td>
+		</tr>
+		<tr id="bu">
+			<td colspan="4"><center><input type="submit" value="BUY" name="BUY" ></input></center></td>
+		</tr>
+	
+					
+		</table></form></div>
+
+	<hr>
+	<div>
+		<table align="center" >
+			<tr>
+				<td>&copy All Copy Rights Reserved</td></div>
+			</tr>
+
+		</table></div>
+	
+	</body>
+</html>

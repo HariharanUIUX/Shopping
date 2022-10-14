@@ -1,0 +1,82 @@
+				/*Home*/
+body{
+	background-image:linear-gradient(to left, rgba(255,99,71,0.2),rgba(71,99,71,0.4));
+}
+#top td:hover{
+	background-color:pink;
+	border-radius:5px;
+}
+
+#top a{
+	text-decoration:none;
+	font-size:18px;
+	font-family:"Elephant",Garamond;
+}
+
+
+#title{
+	text-align:center;
+	color:red ;
+	
+}
+#title table{
+	bordercolor:yellow;
+}
+
+.im{
+	width:20;
+	height:20;
+
+}
+.im td:hover{
+	background-color:skyblue;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:10px;
+	
+}
+
+.im #bu td:hover{
+	background-color:transparent;
+	}
+
+ img{
+	background-color:Skyblue;
+	
+	border-color:lightgreen;
+}
+img:hover{
+	border-color:darkgreen;
+}
+
+				/*Home*/
+				/*About Us*/
+	
+#us td{
+	text-align:center;
+	
+}
+
+
+			/*End About Us*/
+
+			/*Billing Page Start*/
+.ab{
+	text-transform:uppercase;
+	text-decoration:underline;
+	color:Blue
+	
+}
+.name{
+	
+	text-align:right;
+}
+ .tabcol  tr,td {
+	
+	border-color:red;
+	
+}
+.tabcol table{
+	border-color:blue;
+	background-color:white;
+}
